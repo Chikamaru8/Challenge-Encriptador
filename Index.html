@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style-encriptador.css">
+        <title>Encriptador</title>  
+        <script type="text/javascript" src="script.js"></script>
+    </head> 
+        <body>
+            <div class="Container">
+                <div class="logo">
+                    <div class="Logo">
+                        <img class="logoImg" src="Imagenes/Logo.png" alt="Logo Encritador">
+                        <h1 class="title">Encriptador de Mensaje</h1>
+                    </div>
+                <form>                    
+                    <textarea id="TextoIngresadoEn" class="Texto-encritar" required placeholder="INGRESE MENSAJE"></textarea>
+                    
+                </form>
+            
+                <div class="cuadrado-muñeco">    
+                    <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>      
+                </div> 
+                        <div>
+                            <h1><img class="muñeco" id="Muneco" src="Imagenes/Muñeco.png" alt="Muñeco"></h1>
+                            <h1 id="texto">Ningun Mensaje fue encontrado</h1>
+                            <textarea id="texto2" name="name" rows="8" cols="80">Ingrese el texto a encriptar o Desencriptar</textarea>
+                        </div>
+                            <p id= "informacion"> Solo Letra Minuscula y sin acento</p>
+                            <div class="boton-Encriptar">
+                                <input type="button" id ="boton-En" value="Encriptar" onclick="encriptar()"class="caja-encriptar">
+                            </div>    
+                                <div class="boton-Desencriptar">
+                                    <input type="button" id ="boton-Desen" onclick="desencriptar()" value="Desencriptar" class="caja-Desencriptar">
+                                </div>
+                                    <footer>
+                                        
+                                        <p id ="copy" class="Copyright">&copy Copyright Christian Gonzàlez - 2023</p>
+                                    </footer>
+                                                            
+        
+        </body>
+
+</html>     

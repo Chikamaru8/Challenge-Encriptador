@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:  #E5E5E5;
+    /*background-color: #9fdbc4;*/
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: #e5e5e5;
+
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5% ;
+    /*float-inherint:;*/
+}
+.title{
+    /*float-inherint:;*/
+    margin-top: -2%;
+    margin-left: 15%;
+}
+textarea{
+    position: absolute;
+    width: 50%;
+    height: 40%;
+    left: 240px;
+    top: 168px;
+
+
+    box-shadow: 0PX 24PX 32PX -8px; 
+    border-radius: 32px;
+    background-color:  #E5E5E5;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0a3871;  
+    border: none;
+    outline: none;
+    border: none;
+}
+
+.cuadrado-muñeco{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1700px;
+    top: 40px;
+    background: #7c9eb9;   
+    box-shadow: 0PX 24PX 32PX -8px; 
+    border-radius: 32px;    
+    
+}
+.muñeco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1725px;
+    top: 283px;
+    /*apartir de aca es para zoom*/
+    overflow: hidden;
+    border-radius: 8px;
+}
+.muñeco img{
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+    cursor: pointer;
+}
+.muñeco:hover{
+    transform: scale(1.5);
+    /*termina aca*/
+}
+#informacion{
+    width: 705px;
+    height: 850px;
+
+    left: 100px;
+    top: 1500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.caja-encriptar{
+    box-sizing: border-box;
+    position: absolute;
+
+    width: 30%;
+    height: 60px;
+
+    left: 100px;
+    top: 885px;
+
+    background: #0A3871;
+    border-radius: 24px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer; 
+    
+}
+.caja-encriptar:hover{
+    animation: alternate;
+    background: orange;
+    transform: scale(1);
+    color: black;
+}
+
+.caja-Desencriptar{
+    box-sizing: border-box;
+    position: absolute;
+
+    width: 30%;
+    height: 67px;
+    
+    right: 500px;
+    top: 885px;
+    /*ligt gray*/
+    background: #D8DFE8;
+    border-radius: 24px;
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #052341;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.caja-Desencriptar:hover{
+    animation: alternate;
+    background: orange;
+    transform: scale(1);
+    color: black;
+}
+
+
+#texto{
+    position: absolute;
+    width: 336px;
+    height: 58px;
+
+    top: 650px;
+    left: 1725px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#texto2{
+
+    position: absolute;
+    width: 15%;
+    height: 18%;
+    border: none;
+    border-radius: none;
+
+    left: 1730px;
+    top: 750px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #0A3871;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+.informTex2{
+position: absolute;
+width: 680px;
+height: 288px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* or 48px */
+
+
+color: #0A3871;
+}
+#copiar{
+    margin-left: 33%;
+    margin-top: 560px;
+    padding: 24px;
+    width: 40%;
+    height: 15%;
+    background: #D8DFE8 ;
+    border-radius: 24px;
+    display: none; 
+    
+}
+#copiar:hover{
+    animation: alternate;
+    background: orange;
+    transform: scale(1);
+    color: black;
+    
+}
+
+
+
+
+
+
+
